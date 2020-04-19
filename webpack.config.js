@@ -6,7 +6,7 @@ const fs = require('fs');
 
 const config = {
     mode: "development",
-    devtool: "eval-cheap-module-source-map",
+    devtool: 'inline-source-map',
     entry: ["@babel/polyfill",`${statementConfig.dir}/src/app.ts`],
     resolve: {
         extensions: ['.vue', '.mjs', '.js', '.json', '.ts']

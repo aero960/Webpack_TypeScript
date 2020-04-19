@@ -9,10 +9,7 @@ const statementConfig = require("./stmconfig.js");
 
 module.exports = {plugins:[
         new CleanWebpackPlugin(),
-
-
         new VueLoaderPlugin(),
-
         new HtmlWebpackPlugin({
             title: `${statementConfig.dir.replace("./","")} app`,
             filename: `../index.html`,

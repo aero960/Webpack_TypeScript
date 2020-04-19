@@ -21,7 +21,6 @@ module.exports = {
                     }
                 }
             },
-
             /**
              * For vue load
              */
@@ -58,7 +57,6 @@ module.exports = {
                 use: [
                     {
                         loader: 'awesome-typescript-loader' //   "ts-loader",
-
                     }
                 ]
 
